@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Hue is from 0 to 360, 0 is red, 120 is green, 240 is blue */
-  --hue-color: 260;
+  --hue-color: 220;
 
   /* HSL color mode- 1. hue color, 2. saturation, 3. Lightness */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -24,7 +24,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
+  --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem; /* 32px */
   --h1-font-size: 1.5rem; /* 24px */
   --h2-font-size: 1.25rem; /* 20px */
@@ -498,107 +498,23 @@ img {
 }
 
 .skills__list {
-  row-gap: 1.5rem;
+  text-transform: uppercase;
+  row-gap: 0rem;
 }
 
 .skills__titles {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: var(--mb-0-25);
 }
 
 .skills__name {
+  color: var(--first-color);
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
-.skills__bar,
-.skills__percentage {
-  height: 5px;
-  border-radius: 0.25rem;
-}
-
-.skills__bar {
-  background-color: var(--first-color-lighter);
-}
-
-.skills__percentage {
-  display: block;
-  background-color: var(--first-color);
-}
-
-/*==================== SKILLS - FRONTEND ====================*/
-
-.skills__html {
-  width: 90%;
-}
-
-.skills__css {
-  width: 90%;
-}
-
-.skills__js {
-  width: 70%;
-}
-
-.skills__vue {
-  width: 50%;
-}
-
-.skills__git {
-  width: 80%;
-}
-
-.skills__github {
-  width: 90%;
-}
-
-.skills__node {
-  width: 50%;
-}
-
-/*==================== SKILLS - PERSONAL SKILLS ====================*/
-
-.skills__collaboration {
-  width: 100%;
-}
-
-.skills__responsability {
-  width: 100%;
-}
-
-.skills__spanish {
-  width: 100%;
-}
-
-.skills__english {
-  width: 60%;
-}
-
-/*==================== SKILLS - INTEREST ====================*/
-
-.skills__react {
-  width: 100%;
-}
-
-.skills__native {
-  width: 100%;
-}
-
-.skills__angular {
-  width: 100%;
-}
-
 /*==================== SKILLS - PROJECTS MANAGEMENT ====================*/
-
-.skills__scrum {
-  width: 100%;
-}
-
-.skills__jira {
-  width: 100%;
-}
-
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -819,7 +735,7 @@ img {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-  content: '';
+  content: "";
 }
 
 .swiper-portfolio-icon {
@@ -920,7 +836,7 @@ img {
 }
 
 .contact__information {
-    display: flex;
+  display: flex;
   margin-bottom: var(--mb-2);
 }
 
